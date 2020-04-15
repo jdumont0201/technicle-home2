@@ -12,7 +12,7 @@ class AppsBacktestPolicy extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
-        child: Column(
+        child: Column(crossAxisAlignment:  CrossAxisAlignment.start,
           children: [
             TopMenu(),
             Column(
@@ -61,6 +61,8 @@ class AppsBacktestPolicy extends StatelessWidget {
                     "Information from third parties, such as personal information or network friends, if you connect your account to the third party and grant the Application permission to access this information."),
                 HeadedParagraph("Data From Contests, Giveaways, and Surveys",
                     "Personal and other information you may provide when entering contests or giveaways and/or responding to surveys."),
+                HeadedParagraph("Data From Contests, Giveaways, and Surveys",
+                    "Personal and other information you may provide when entering contests or giveaways and/or responding to surveys."),
                 Styles.pTitle("USE OF YOUR INFORMATION"),
                 Paragraph(
                     "We do use your information with the sole intent of debugging and improving the ergonomy of the Applicatio and the quality of the Application features.<!--Having accurate information about you permits us to provide you with a smooth, efficient, and customized experience. Specifically, we may use information collected about you via the Application to: [Choose from the options below, or add your own"
@@ -87,7 +89,7 @@ class AppsBacktestPolicy extends StatelessWidget {
                     "Solicit support for the Application."),
                 Styles.pTitle("DISCLOSURE OF YOUR INFORMATION"),
                 Paragraph("We do not share any information with third parties."
-                    "We may                share                information                we                have                collected                about                you in                certain                situations.Your                information                may                be                disclosed as follows:"
+                    "We may share information we have collected about you in certain situations.Your information may be disclosed as follows:"
                     "By Law or to Protect Rights"
                     "If we believe the release of information about you is necessary to respond to legal process, to investigate or remedy potential violations of our policies, or to protect the rights, property, and safety of others, we may share your information as permitted or required by any applicable law, rule, or regulation. This includes exchanging information with other entities for fraud protection and credit risk reduction."),
                 Styles.pTitle("TRACKING TECHNOLOGIES"),

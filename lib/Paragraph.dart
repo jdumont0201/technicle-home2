@@ -10,8 +10,8 @@ class Paragraph extends StatelessWidget {
 
   build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.fromLTRB(20,20,20,20),
-        alignment: Alignment.topRight,
+        margin: EdgeInsets.fromLTRB(40,20,20,20),
+        alignment: Alignment.topLeft,
         child:Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -30,8 +30,9 @@ class HeadedParagraph extends StatelessWidget {
 
   build(BuildContext context) {
     return Container(
-        margin: EdgeInsets.fromLTRB(20,20,20,20),
-        alignment: Alignment.topRight,
+        //color: Colors.blue,
+        margin: EdgeInsets.fromLTRB(40,20,20,20),
+        alignment: Alignment.topLeft,
         child:Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [

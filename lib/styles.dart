@@ -25,7 +25,7 @@ static Widget ph1no(String text,String sub){
   return Container(
       margin: EdgeInsets.fromLTRB(0,0,0,80),
       alignment: Alignment.center,
-      child:Column(children: [
+      child:Column( children: [
         Text(text,style: Styles.h1,),
         Text(sub,style: Styles.h2,),
       ],)
