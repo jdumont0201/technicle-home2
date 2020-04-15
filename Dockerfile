@@ -7,9 +7,8 @@ WORKDIR /work
 EXPOSE 3000 8080 49155 27017
 
 COPY /server/package.json /work/server
-WORKDIR /work/server
-RUN npm install --only=prod
-COPY /build/web /work/dist
 COPY /server/server.js /work/server/server.js
+RUN cd /work/server && npm install --only=prod
+COPY /build/web /work/dist
 
 CMD ["node","/work/server/server.js"]
