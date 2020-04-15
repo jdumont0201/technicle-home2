@@ -1,0 +1,9 @@
+const String HomeRoute = '/';
+const String AboutRoute = '/about';
+const String Apps = '/apps';
+const String Backtest = '/apps/backtester';
+const String BacktestPolicy = '/apps/backtester/policy';
+const String BacktestSupport = '/apps/backtester/support';
+const String Plots = '/apps/plotsr';
+const String PlotsPolicy = '/apps/plots/policy';
+const String PlotsSupport = '/apps/plots/support';
